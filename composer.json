@@ -1,0 +1,19 @@
+{
+    "name": "vayu/laravel-shared-model",
+    "description": "Try shared model for Laravel apps",
+    "type": "library",
+    "license": "Private",
+    "authors": [
+        {
+            "name": "vayupranaditya",
+            "email": "bagusvayuprana@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vayu\\SharedModel\\": "src"
+        }
+    }
+}
