@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Vayu\\SharedModel\\": "src"
+            "Vayu\\SharedModel\\": "."
         }
     }
 }

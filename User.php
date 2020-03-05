@@ -38,4 +38,8 @@ class User extends Authenticatable
     ];
 
     protected $table = 'users';
+
+    public function pointUsage() {
+        return $this->hasMany(PointUsage::class, 'user_id');
+    }
 }
