@@ -1,10 +1,10 @@
 <?php
 
-namespace Vayu\SharedModel;
+namespace Vayu\Basemodel;
 
 use Illuminate\Database\Eloquent\Model;
 
-class PointUsage extends Model
+class BasePointUsage extends Model
 {
     protected $table = 'point_usage';
 

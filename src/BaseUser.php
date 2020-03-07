@@ -1,12 +1,12 @@
 <?php
 
-namespace Vayu\SharedModel;
+namespace Vayu\Basemodel;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class BaseUser extends Authenticatable
 {
     use Notifiable;
 
